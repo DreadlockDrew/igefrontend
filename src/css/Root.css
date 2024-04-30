@@ -1,0 +1,15 @@
+:root {
+    --theme-color-debug: #ff1600;/*if you see this your css is not working*/
+    --theme-color-text-for-dark-backgrounds: #f5ecec;
+    --theme-color-text-for-bright-backgrounds: #7a7373;
+    --page-bg: #eff0f1;
+    --low-text-color: #777373;
+}
+
+body {
+    background-color: var(--page-bg);
+    font-size: 15px;
+    line-height: 1.5;
+    word-wrap: break-word !important;
+    font-family: Arial, sans-serif;
+}

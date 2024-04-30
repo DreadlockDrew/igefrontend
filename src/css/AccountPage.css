@@ -1,0 +1,24 @@
+.AccountPage {
+  background-color: #f0f0f0;
+
+  margin: 0 auto;
+  padding: 20px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.AccountPage h1 {
+  color: #333;
+  font-size: 24px;
+}
+
+.AccountPage p {
+  color: #333;
+}
+
+.AccountPage .account-details {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

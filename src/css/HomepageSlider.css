@@ -1,0 +1,17 @@
+.carousel-caption {
+    height: 90vh;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.d-block.w-100 {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-caption h3 {
+    color: white; /* change color of h3 headings in carousel */
+}
+
+.carousel-caption p {
+    color: white; /* change color of paragraph text in carousel, if you want */
+}

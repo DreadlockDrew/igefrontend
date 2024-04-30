@@ -1,0 +1,36 @@
+.nav_holder {
+    background-color: #007bff;
+    width: 120px;
+    transition: width 0.5s;
+}
+
+.nav_holder:hover {
+    width: 120px;
+}
+
+.nav_holder > * {
+    display: block;
+    transition:
+            display 0.5s,
+            background-color 0.5s
+;
+}
+
+.nav_holder:hover > * {
+    display: block;
+    background-color: #007bff;
+}
+
+.btn {
+    background-color: #007bff;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.btn:hover {
+    background-color: #0056b3;
+    background-color: #ffb350;
+}

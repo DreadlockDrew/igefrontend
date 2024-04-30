@@ -1,0 +1,9 @@
+.problem-grid{
+    min-height: 100vh;
+    background: linear-gradient(
+            rgba(255, 255, 255, 0.1),
+            rgba(255, 255, 255, 0.2)
+    ),
+    url('../../public/images/paintsplash1.png');
+
+}
