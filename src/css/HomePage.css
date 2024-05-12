@@ -10,10 +10,81 @@
 }
 
 
+/*start hero*/
+
+.hero-bg {
+  background:#222;
+  height: 100%;
+  width: 100%;
+  clear: both;
+  padding: 1rem;
+  background: url("../../public/images/blockycity.png") no-repeat center center;
+  background-size: cover;
+}
+
+.hero-wrapper {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+
+
+h2 {
+  color:#fff;
+  font-size:3em;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+  margin:0 0 20px;
+}
+
+a.btn {
+  text-decoration:none;
+  color:#005c9e;
+  font-size:1.2em;
+  border:1px solid #fff;
+  padding:10px 20px;
+  background:rgba(255,255,255,0.9);
+  border-radius:5px;
+  max-width: 9rem;
+}
+
+.inner-hero-section {
+    background:rgba(255,255,255,0.5);
+    border-radius: 5px;
+    padding: .5rem;
+    margin-bottom: 1rem;
+}
+.inner-hero-section svg {
+    width: 32px;
+    margin-inline: auto;
+}
+@media screen and (min-width: 768px){
+    .inner-hero-flex {
+        display: flex;
+        gap: .5rem;
+    }   
+    .inner-hero-section {
+        max-width: 33%;
+    }
+}
+/*end hero*/
+
+
+
+
+
+
+
+
 
 .homepage-tab {
-    display: flex;
-    align-items: stretch;
     color: var(--theme-color-text-for-dark-backgrounds);
     background-color: #1688ff;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,.05);
@@ -22,13 +93,21 @@
     margin-top: 0;
     margin-bottom: 0;
 }
+@media screen and (min-width: 768px) {
+    .homepage-tab {
+        display: flex;
+        align-items: stretch;
+    }
+    .homepage-tab img, .hpt-textfield {
+        width: 50%;
+    }
+}
 
 .homepage-tab:nth-child(odd) {
     flex-direction: row-reverse;
 }
 
 .homepage-tab img, .hpt-textfield {
-    width: 50%;
     max-height: 500px;
     overflow: hidden;
     box-sizing: border-box;

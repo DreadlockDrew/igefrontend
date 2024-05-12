@@ -1,0 +1,17 @@
+.footer-wrapper {
+    background-color: navy;  
+    gap: 1rem;
+    padding-block: 2rem;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;    
+    gap: 1rem;
+    padding-block: 1rem;
+}
+
+.footer__link {
+    color: #fff;
+}

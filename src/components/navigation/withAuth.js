@@ -9,9 +9,9 @@ function withAuth(Component) {
     return function AuthenticatedComponent(props) {
         const loggedIn = isLoggedIn();
 
-        if (!loggedIn) {
-            return <Navigate to="/login" />;
-        }
+        //AUTOLOGIN if (!loggedIn) {
+        //     return <Navigate to="/login" />;
+        // }
         return <Component {...props} />;
     };
 }

@@ -78,7 +78,7 @@ async function fetchProblems(start, end, difficulty, platform, title) {
         const headers = {
             'Authorization': `Bearer ${localStorage.getItem("accessToken")}`
         };
-        const response = await axios.get('/api/problems', {
+        const response = await axios.get('LeetcodeQuestionsSample.json', {
             params: {
                 start: start,
                 end: end,
@@ -92,7 +92,7 @@ async function fetchProblems(start, end, difficulty, platform, title) {
         if (response.status !== 200) {
             throw new Error(`Server responded with status code ${response.status}: ${response.statusText}`);
         }
-
+        console.log("HIIIIIIIIIIIII")
         return response.data;
     }
     catch (error) {

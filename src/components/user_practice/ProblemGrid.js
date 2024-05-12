@@ -37,9 +37,9 @@ const ProblemGrid = ({ filter }) => {
         });
 }, []);
 
-    if (isLoading) {
-        return <div>Loading...</div>; // Or replace with your own loading component
-    }
+    // if (isLoading) {
+    //     return <div>Loading...</div>; // Or replace with your own loading component
+    // }
 
 
     const handleCardSelect = (problem) => {
