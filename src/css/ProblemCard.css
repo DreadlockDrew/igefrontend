@@ -1,38 +1,33 @@
 .problem-card {
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     flex: 0 0 auto;
-    width: 200px;
-    height: 250px;
+    max-width: 300px;
+    /* height: 250px; */
     color: #000000;
     margin: 16px;
-    background-position: center;
     background-size: cover;
+    background: #ffffff url('../../public/images/blockycity.png') no-repeat center;
     transition:
-            transform 2.5s ease-in-out,
-            color 2.5s ease-in-out,
-            border-radius 2.5s ease-in-out,
-            background 2.5s ease-in-out;
+            transform .5s ease-in-out,
+            color .5s ease-in-out,
+            border-radius .5s ease-in-out,
+            background .5s ease-in-out;
 
 }
 
-.problem-card {
-    background: linear-gradient(
-            rgba(255, 255, 255, 0.8),
-            rgba(255, 255, 255, 0.2)
-    ),
-    url('../../public/images/blockycity.png');
-}
-
-.problem-card {
-    background-repeat: no-repeat;
+@media screen and (min-width: 768px) {
+    .problem-card {
+        min-height: 240px;
+    }
 }
 
 .problem-card:hover {
     transform: scale(1.05);
-    border-radius: 400px;
+    border-radius: 20px;
 
     background: linear-gradient(
             rgba(255, 255, 255, 0.0),
@@ -41,20 +36,50 @@
     url('../../public/images/blockycity2.png');
 }
 
+.inner-card {
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(154, 154, 154);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 .problem-card h2,
 .problem-card p {
+    padding-inline: .5rem;
+    font-size: 22px;
     text-align: center;
     color: #101010;
     background-color: rgba(255, 255, 255, .9);
     border-radius: 8px;
+    padding-block: 5px;
+    width: 100%;
+}
+
+.problem-card p {
+    font-size: 19px;
+    width: fit-content;
 }
 
 .problem-card:hover h2,
 .problem-card:hover p {
-    text-align: center;
-    color: #000000;
     background-color: rgba(255, 255, 255, 0.89);
-    border: 10px;
-    border-radius: 40px;
+}
+
+.problem-card h2.Easy,
+.problem-card p.Easy {
+    color: green;
+}
+
+.problem-card h2.Medium,
+.problem-card p.Medium {
+    color: rgb(185, 98, 58);
+}
+
+.problem-card h2.Hard,
+.problem-card p.Hard {
+    color: maroon;
 }
