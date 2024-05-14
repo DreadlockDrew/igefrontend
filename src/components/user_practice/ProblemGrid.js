@@ -94,15 +94,7 @@ const ProblemGrid = ({ filter }) => {
     return selectedProblem ? (
         <DetailedProblemCard problem={selectedProblem} onBack={handleBack} onReview={handleReview}/>
     ) : (
-        <div className="problem-grid"
-             style={{
-                 display: 'grid',
-                 gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))',
-                 gridGap: '1em',
-                 overflowY: 'auto',
-                 maxHeight: '100vh',
-             }}
-        >
+        <div className="problem-grid">
             {
                 problems.map((problem) => {
                     // const reviewProblem = reviewProfile.leetcode_progress.problems.find(p => p.problem_id === problem.problem_id);

@@ -5,5 +5,9 @@
             rgba(255, 255, 255, 0.2)
     ),
     url('../../public/images/paintsplash1.png');
-
+        display:grid;
+        grid-template-columns:repeat(auto-fill,minmax(200px,1fr));
+        grid-gap: 0rem;
+        overflow-y:auto;
+        max-height:100vh;
 }

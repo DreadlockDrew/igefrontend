@@ -1,7 +1,8 @@
 .footer-wrapper {
-    background-color: navy;  
+    background-color: rgb(7, 110, 220); 
     gap: 1rem;
     padding-block: 2rem;
+    border-top: 1px #f9f9f9 solid;
 }
 
 
