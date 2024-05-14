@@ -6,16 +6,18 @@
     justify-content: center;
     flex: 0 0 auto;
     max-width: 300px;
-    /* height: 250px; */
     color: #000000;
     margin: 16px;
-    background-size: cover;
-    background: #ffffff url('../../public/images/blockycity.png') no-repeat center;
+    background: rgba(255,255,255,.1);
+    border-left: 1px solid #f9f9f9;
+    border-top: 1px solid #f9f9f9;
+    backdrop-filter: blur(10px);
+    box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
     transition:
-            transform .5s ease-in-out,
-            color .5s ease-in-out,
-            border-radius .5s ease-in-out,
-            background .5s ease-in-out;
+            transform .4s ease-in-out,
+            color .4s ease-in-out,
+            border-radius .4s ease-in-out,
+            background .4s ease-in-out;
 
 }
 
@@ -28,18 +30,14 @@
 .problem-card:hover {
     transform: scale(1.05);
     border-radius: 20px;
-
-    background: linear-gradient(
-            rgba(255, 255, 255, 0.0),
-            rgba(255, 255, 255, 1.0)
-    ),
-    url('../../public/images/blockycity2.png');
+    background: rgba(255,255,255,.3);
 }
 
 .inner-card {
     padding: 5px;
     margin: 5px;
-    background-color: rgb(154, 154, 154);
+    border-radius: 3px;
+    background: rgba(255,255,255,.2);
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -49,11 +47,11 @@
 
 .problem-card h2,
 .problem-card p {
+    font-family: 'Montserrat', sans-serif;
     padding-inline: .5rem;
     font-size: 22px;
     text-align: center;
-    color: #101010;
-    background-color: rgba(255, 255, 255, .9);
+    color: #313131c9;
     border-radius: 8px;
     padding-block: 5px;
     width: 100%;
@@ -62,24 +60,35 @@
 .problem-card p {
     font-size: 19px;
     width: fit-content;
+    background: transparent;
+    padding: .5rem 1rem;
+    margin-bottom: .5rem;
+    border: none;
+    border-left: 1px solid #f9f9f9;
+    border-top: 1px solid #f9f9f9;
+    border-radius: 5px;
+    backdrop-filter: blur(100px);
+    box-shadow: 4px 4px 60px rgba(0,0,0,0.2);
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    
 }
 
-.problem-card:hover h2,
-.problem-card:hover p {
-    background-color: rgba(255, 255, 255, 0.89);
+/* .problem-card h2.Easy, */
+.problem-card p.Easy 
+{
+    color: rgb(0, 109, 0);
 }
 
-.problem-card h2.Easy,
-.problem-card p.Easy {
-    color: green;
+/* .problem-card h2.Medium, */
+.problem-card p.Medium 
+{
+    color: rgb(182, 70, 0);
 }
 
-.problem-card h2.Medium,
-.problem-card p.Medium {
-    color: rgb(185, 98, 58);
-}
-
-.problem-card h2.Hard,
-.problem-card p.Hard {
+/* .problem-card h2.Hard, */
+.problem-card p.Hard 
+{
     color: maroon;
 }
