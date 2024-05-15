@@ -7,7 +7,7 @@ const HomePage = () => (
                 <div className="hero-content">
                     <h2>Some sort of snazzy text here!</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adip e</p>
-                    <a className="btn">Call to Action</a>
+                    <a className="button">Call to Action</a>
                 </div>
                 <section className='inner-hero-flex'>
                     <div className="inner-hero-section">

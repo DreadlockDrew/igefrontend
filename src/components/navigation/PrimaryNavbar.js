@@ -13,13 +13,13 @@ const PrimaryNavbar = () => {
                 <img src="images/igelogo.png" alt="Logo" style={{maxWidth: '60px', maxHeight: '60px'}}/>
             </Link>
             <Link to="/login" className="primary-navbar__link">
-            <button className="primary-navbar__button">Login</button>
+            <button className="button button-dark">Login</button>
             </Link>
             <Link to="/account" className="primary-navbar__link">
-                <button className="primary-navbar__button">Account</button>
+                <button className="button button-dark">Account</button>
             </Link>
             <Link to="/practice" className="primary-navbar__link">
-                <button className="primary-navbar__button">Practice</button>
+                <button className="button button-dark">Practice</button>
             </Link>
         </nav>
     );

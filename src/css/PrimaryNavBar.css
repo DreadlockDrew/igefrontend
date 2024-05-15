@@ -1,5 +1,7 @@
 .primary-navbar {
     display: flex;
+    gap: 1rem;
+    align-items: center;
     justify-content: left;
     padding: 10px 0;
     border-bottom: 1px solid #e7e7e7;
