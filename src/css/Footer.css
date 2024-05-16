@@ -1,14 +1,16 @@
 .footer-wrapper {
-    background-color: rgb(7, 110, 220); 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: #186d92; 
     gap: 1rem;
-    padding-block: 2rem;
+    padding-block: 1rem;
     border-top: 1px #f9f9f9 solid;
 }
 
 
 .footer {
-    display: flex;
-    justify-content: center;    
+    display: flex;    
     gap: 1rem;
     padding-block: 1rem;
 }

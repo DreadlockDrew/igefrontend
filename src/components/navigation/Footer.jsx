@@ -16,7 +16,7 @@ const Footer = () => {
                     Privacy Policy
                 </Link>
             </nav>
-            <p style={{textAlign: 'center'}}>©2024 Interview Launchpad</p>
+            <p>©2024 Interview Launchpad</p>
         </div>
     );
 }

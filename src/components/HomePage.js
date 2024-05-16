@@ -38,31 +38,37 @@ const HomePage = () => (
             </div>
         </div>
         <div id="call-to-action" className="homepage-tab">
-            <img src="images/blockycity.png" alt="Descriptive text here"/>
+            <img src="images/pexels-markusspiske-330771.webp" alt="Descriptive text here"/>
             <div className="hpt-textfield">
-                <h3>Ready to snag that tech job?</h3>
-                <p>Hone your interview skills with spaced
-                    repetition and personalized study plans.
-                    Practice effectively and efficiently
-                    to ace your next interview!</p>
+                <div className="homepage-text-container">
+                    <h3>Ready to snag that tech job?</h3>
+                    <p>Hone your interview skills with spaced
+                        repetition and personalized study plans.
+                        Practice effectively and efficiently
+                        to ace your next interview!</p>
+                </div>
             </div>
         </div>
 
         <div id="learn-by-topic" className="homepage-tab">
-            <img src="images/blockycity2.png" alt="Descriptive text here"/>
+            <img src="images/pexels-pixabay-2156.webp" alt="Descriptive text here"/>
             <div className="hpt-textfield">
-                <h3>Don't know where to start?</h3>
-                <p>Learn by topic! Dive into our guided study plans to master common interview topics.
-                    Progress to advanced subjects and earn completion badges along the way.</p>
+                <div className="homepage-text-container">
+                    <h3>Don't know where to start?</h3>
+                    <p>Learn by topic! Dive into our guided study plans to master common interview topics.
+                        Progress to advanced subjects and earn completion badges along the way.</p>
+                </div>
             </div>
         </div>
 
         <div id="pricing-options" className="homepage-tab">
-            <img src="images/blockycity3.png" alt="Descriptive text here"/>
+            <img src="images/1024px-Good_Morning_From_the_International_Space_Station.webp" alt="Descriptive text here"/>
             <div className="hpt-textfield">
-                <h3>Checkout our many courses!</h3>
-                <p>Learn by topic! Dive into our guided study plans to master common interview topics.
+                <div className="homepage-text-container">
+                   <h3>Checkout our many courses!</h3>
+                    <p>Learn by topic! Dive into our guided study plans to master common interview topics.
                     Progress to advanced subjects and earn completion badges along the way.</p>
+                </div>
             </div>
         </div>
 
