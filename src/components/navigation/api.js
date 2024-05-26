@@ -78,7 +78,7 @@ async function fetchProblems(start, end, difficulty, platform, title) {
         const headers = {
             'Authorization': `Bearer ${localStorage.getItem("accessToken")}`
         };
-        const response = await axios.get('LeetcodeQuestionsSample.json', {
+        const response = await axios.get('/api/problems', {
             params: {
                 start: start,
                 end: end,

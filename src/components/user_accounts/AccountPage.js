@@ -40,10 +40,10 @@ const AccountPage = () => {
         fetchUserData().then(r => console.log('User data fetched'));
     }, []);
 
-    // if(loading)
-    // {
-    //     return <h1>Loading...</h1>
-    // }
+    if(loading)
+    {
+        return <h1>Loading...</h1>
+    }
     return (
         <div className='AccountPage'>
             <h1>Welcome to your account page, {user.username}!</h1>

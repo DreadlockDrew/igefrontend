@@ -68,9 +68,9 @@ const PracticePage = () => {
     const [filter, setFilter] = useState('All');
     const { reviewProfile, isLoading, handleReview } = useUserReviewProfile();
 
-    // if (isLoading) {
-    //     return <div>Loading...</div>;
-    // }
+    if (isLoading) {
+        return <div>Loading...</div>;
+    }
 
     return (
         <div style={{display: 'flex', flexDirection: 'row'}}>
