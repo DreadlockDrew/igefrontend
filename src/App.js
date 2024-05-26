@@ -2,12 +2,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';//Imports the default css
 import './css/App.css';
 import AppRoutes from "./components/navigation/AppRoutes";
 import PrimaryNavbar from "./components/navigation/PrimaryNavbar";
+import Footer from './components/navigation/Footer';
 
 function App() {
   return (
       <>
           <PrimaryNavbar/>
           <AppRoutes/>
+          <Footer/>
       </>
   );
 }

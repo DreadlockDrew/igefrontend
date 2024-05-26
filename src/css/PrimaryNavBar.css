@@ -1,7 +1,8 @@
 .primary-navbar {
     display: flex;
+    gap: .5rem;
+    align-items: center;
     justify-content: left;
-    padding: 10px 0;
     border-bottom: 1px solid #e7e7e7;
 
     background: linear-gradient(
@@ -19,14 +20,10 @@
 }
 
 .primary-navbar__button {
-    background-color: #007BFF; /* Blue */
-    border: none;
-    color: white;
-    padding: 15px 32px;
+    font-size: 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
     margin: 1px 2px;
     cursor: pointer;
     border-radius: 10px; /* Make the buttons rounded */

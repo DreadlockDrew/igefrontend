@@ -27,7 +27,6 @@
 
 .detailed-problem-card__navbar-button {
     font-weight: bold;
-    font-size: 14px;
     padding: 10px 20px;
     background-color: rgba(255, 179, 70, 0.49);
     color: #1f50ff;
@@ -45,12 +44,10 @@
 }
 .detailed-problem-card__title {
     font-weight: bold;
-    font-size: 20px;
     margin-bottom: 10px;
 }
 
 .detailed-problem-card__difficulty,
 .detailed-problem-card__description {
-    font-size: 16px;
     color: #333;
 }
